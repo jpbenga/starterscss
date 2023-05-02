@@ -21018,14 +21018,29 @@ readers do not read off random characters that represent icons */
   content: "\f3f6";
 }
 
-.button-standard {
-  font-size: 2rem;
-  color: #ff8cd0;
+nav {
+  border-bottom: 2px solid #B2C19A;
 }
 
-h1, .h1 {
-  font-size: 5rem;
-  font-style: italic;
+.container {
+  justify-content: space-between;
+}
+
+.navbar-list {
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  color: #B2C19A;
 }
 
 /*# sourceMappingURL=style.css.map */

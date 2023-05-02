@@ -8,31 +8,132 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Mon super titre!</h1>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-    </button>
-    
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container container-fluid">
+            <a class="navbar-brand" href="#"><img src="../assets/style/images/Logo.png" alt="Bootstrap" width="30" height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-list" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">l'entreprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">réalisation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
                 </div>
             </div>
         </div>
+    </nav>
+ <!-- fin navbar -->  
+ 
+ 
+<!-- sectioon main -->
+    <div>
+        <main>
+            <div>
+                <h2>Une entreprise <span>experte</span></h2>
+            </div>
+            <div>image</div>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit sapiente adipisci repellat autem vitae magnam, nemo est voluptate tempora iste. Aspernatur sit error vero ratione culpa sint ipsa explicabo a.</div>
+        </main>
     </div>
-    <i class="fa-solid fa-house"></i>
+ <!-- fin section main --> 
+
+
+<!-- section service -->   
+    <div>
+        <div>
+            <h2>Des services <span>professionnels</span></h2>
+        </div>
+        <div class="thumbnail">image</div>
+        <div class="text-card">
+            <div>icone</div>
+            <div>titre</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis consectetur eos quibusdam, voluptates distinctio quisquam amet accusantium? Dolorem rerum itaque voluptate? Fuga alias corrupti perferendis doloremque ex. Quas, repellat?</div>
+        </div>
+        <div class="thumbnail">image</div>
+        <div class="text-card">
+            <div>icone</div>
+            <div>titre</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis consectetur eos quibusdam, voluptates
+                distinctio quisquam amet accusantium? Dolorem rerum itaque voluptate? Fuga alias corrupti perferendis doloremque
+                ex. Quas, repellat?</div>
+        </div>
+        <div class="thumbnail">image</div>
+        <div class="text-card">
+            <div>icone</div>
+            <div>titre</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis consectetur eos quibusdam, voluptates
+                distinctio quisquam amet accusantium? Dolorem rerum itaque voluptate? Fuga alias corrupti perferendis doloremque
+                ex. Quas, repellat?</div>
+        </div>
+    </div>
+ <!-- fin section service -->
+
+
+ <!-- section réalisation --> 
+    <div>
+        <div><h2>Des réalisations <span>sur mesure</span></h2></div>
+        <div class="thumbnail">card</div>
+        <div class="thumbnail">card</div>
+        <div class="thumbnail">card</div>
+        <div class="thumbnail">card</div>
+        <div class="thumbnail">card</div>
+        <div class="thumbnail">card</div>
+    </div> 
+ <!-- fin section réalisation --> 
+
+
+ <!-- section contact -->
+    <div>
+        <div class="container">
+            <form action="">
+                <label for="lname">Nom*</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Adresse mail*</label><br>
+                <input type="email" id="email" name="email">
+                <label for="phone">Téléphone*</label><br>
+                <input type="number" id="phone" name="phone">
+                <label for="object">Objet*</label><br>
+                <input type="text" id="object" name="object">
+                <label for="message">Message*</label>
+                <input type="text" id="message" minlength="4" maxlength="300" name="message">
+                <input type="submit" value="Envoyer">
+            </form>
+            <div>
+                <div>icone1</div>
+                <div>icone2</div>
+            </div>
+        </div>
+        
+    </div>
+ <!-- fin section contact  -->
+
+
+ <!-- footer -->
+ <div>
+    <footer></footer>
+ </div>     
+ <!-- fin footer --> 
+
+ <!-- script js -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
