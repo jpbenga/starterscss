@@ -1,0 +1,23 @@
+nav {
+    border-bottom: 2px solid $primary-color;
+}
+
+.container{
+    justify-content: space-between;
+}
+.navbar-list{
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    text-transform: uppercase;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    color: $primary-color;
+}
