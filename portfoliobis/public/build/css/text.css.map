@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,AAAA,CACE,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,MAAM,CACrB",
+    "sources": [
+        "../../../../assets/style/base/text.scss"
+    ],
+    "names": [],
+    "file": "text.css"
+}
