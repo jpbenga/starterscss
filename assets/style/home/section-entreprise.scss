@@ -1,0 +1,38 @@
+.description{
+    background-color: $third-color;
+    color: white;
+    z-index: -3;
+}
+
+h2{
+    text-align: center;
+}
+
+h2 span{
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+.banner{
+    z-index: -1;
+}
+ 
+
+.img-entreprise{
+    height: 300px;
+}
+
+.img-entreprise img{
+    height: 300px;
+    width:auto;
+    object-fit: cover;
+}
+
+/*
+@media (min-width: 768px) {
+    .img-entreprise img{
+        height: 456px;
+        width: auto;
+        object-fit: contain;
+    }
+} */

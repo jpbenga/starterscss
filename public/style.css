@@ -21043,4 +21043,47 @@ i {
   color: #B2C19A;
 }
 
+.description {
+  background-color: #5B554F;
+  color: white;
+  z-index: -3;
+}
+
+h2, .h2 {
+  text-align: center;
+}
+
+h2 span, .h2 span {
+  text-transform: uppercase;
+  color: #B2C19A;
+}
+
+.banner {
+  z-index: -1;
+}
+
+.img-entreprise {
+  height: 300px;
+}
+
+.img-entreprise img {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+}
+
+/*
+@media (min-width: 768px) {
+    .img-entreprise img{
+        height: 456px;
+        width: auto;
+        object-fit: contain;
+    }
+} */
+.thumbnail img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 /*# sourceMappingURL=style.css.map */
