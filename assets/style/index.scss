@@ -1,15 +1,17 @@
-@import 'variables';
+@import "variables";
 
 // lib
-@import'lib/bootstrap';
-@import 'lib/font-awesome';
+@import "lib/bootstrap";
+@import "lib/font-awesome";
 
 //base
-@import 'base/component/button';
-@import 'base/component/text';
-@import 'base/component/card';
-@import 'base/component/footer';
-@import 'base/component/nav';
-@import 'home/section-entreprise';
-@import 'home/section-services';
-@import 'home/section-realisations';
+@import "base/component/button";
+@import "base/component/text";
+@import "base/component/card";
+@import "base/component/footer";
+@import "base/component/nav";
+@import "home/section-entreprise";
+@import "home/section-services";
+@import "home/section-realisations";
+@import "home/section-caroussel";
+@import "home/section-contact";

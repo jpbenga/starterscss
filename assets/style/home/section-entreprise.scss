@@ -1,38 +1,32 @@
-.description{
-    background-color: $third-color;
-    color: white;
-    z-index: -3;
+.description {
+  background-color: $third-color;
+  color: white;
+  z-index: -3;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-h2 span{
-    text-transform: uppercase;
-    color: $primary-color;
+h2 span {
+  text-transform: uppercase;
+  color: $primary-color;
 }
 
-.banner{
-    z-index: -1;
-}
- 
+.banner {
+  background-color: $third-color;
+  position: relative;
+  padding: 50px 0;
+  margin-bottom: 50px;
 
-.img-entreprise{
-    height: 300px;
-}
+  img {
+    position: absolute;
+    height: 448px;
+    right: 45px;
+    top: -74px;
 
-.img-entreprise img{
-    height: 300px;
-    width:auto;
-    object-fit: cover;
-}
-
-/*
-@media (min-width: 768px) {
-    .img-entreprise img{
-        height: 456px;
-        width: auto;
-        object-fit: contain;
+    @include media-breakpoint-down(md) {
+      display: none;
     }
-} */
+  }
+}

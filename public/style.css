@@ -21059,31 +21059,62 @@ h2 span, .h2 span {
 }
 
 .banner {
-  z-index: -1;
+  background-color: #5B554F;
+  position: relative;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.banner img {
+  position: absolute;
+  height: 448px;
+  right: 45px;
+  top: -74px;
+}
+@media (max-width: 767.98px) {
+  .banner img {
+    display: none;
+  }
 }
 
-.img-entreprise {
-  height: 300px;
-}
-
-.img-entreprise img {
-  height: 300px;
-  width: auto;
+.img-services {
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-/*
-@media (min-width: 768px) {
-    .img-entreprise img{
-        height: 456px;
-        width: auto;
-        object-fit: contain;
-    }
-} */
-.thumbnail img {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
+@media (max-width: 1399.98px) {
+  .titre-service {
+    margin-top: 160px;
+  }
+}
+@media (max-width: 991.98px) {
+  .titre-service {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 767.98px) {
+  .titre-service {
+    margin-top: 50px;
+  }
+}
+
+.img-realisation {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.caroussel-img {
+  object-fit: cover;
+  height: 50vh;
+}
+
+.border-contact {
+  border: 2px solid #5B554F;
+}
+
+[type=submit] {
+  background: #B2C19A;
 }
 
 /*# sourceMappingURL=style.css.map */
